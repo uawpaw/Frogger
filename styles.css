@@ -4,6 +4,7 @@
     width: 180px;
     display: flex;
     flex-wrap: wrap;
+    background-color: lightgreen;
 }
 
 .grid div{
@@ -12,20 +13,18 @@
 }
 
 .ending-block{
-    background-color: red;
+    background-image: url("finish.png");
+    background-size: cover;
 }
 .starting-block{
-    background-color: blue;
+    background-image: url("lilypad.png");
+    background-size: cover;
 }
 
-
-
-
-
-
-
 .l1, .l2, .l3{
-    background-color: brown;
+    background-image: url("log.png");
+    background-size: cover;
+    background-color: lightblue;
 }
 
 .l4,.l5{
@@ -33,12 +32,26 @@
 }
 
 .c1{
-    background-color: black;
+    background-image: url("boulder.png");
+    background-size: cover;
+    background-color: lightgray;
 }
 .c2,.c3{
     background-color: lightgray;
 }
 
 .frog{
-    background-color: green; 
+    background-image: url("frog.png");
+    background-size: cover;
+ }
+
+ body{
+    background-image: url("grass.jpg");
+    background-size: contain;
+ }
+
+ h3{
+    color: #042f66;
+    background-color: lightgray;
+
  }
